@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-colors =  ["red","orange","yellow","green"]
+ ["red","orange","yellow","green"]
 end
 
 def add_element_to_end_of_array(array, element)
-colors = ["red","orange","yellow","green"] << "arrays!"
+ ["red","orange","yellow","green"] << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-colors.unshit("red") ["red","orange","yellow","green"]
+.unshit("red") ["red","orange","yellow","green"]
 end
 
 def remove_element_from_end_of_array(array)
